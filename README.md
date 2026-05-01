@@ -71,3 +71,7 @@ Each route builds a `HeadConfig` (title + meta) before rendering. `/word/:w`
 sets `og:image` to `https://www.moedict.tw/{w}.png` — see `headForWord` in
 `src/ssr/heads.ts` for the pattern. Add more `og:` / `twitter:` tags or extend
 `HeadConfig` as needed.
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
